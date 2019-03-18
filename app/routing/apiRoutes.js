@@ -1,6 +1,6 @@
 // REQUIRE
-var tableData = require("../data/tableData");
-var waitListData = require("../data/waitinglistData");
+var friendData = require("../data/friends");
+
 
 
 // ===============================================================================
@@ -11,13 +11,13 @@ module.exports = function (app) {
 
   // Gets
   app.get("/api/friends", function (req, res) {
-    res.json(tableData);
+    res.json(friendData);
   });
 
 
   // Posts
   app.post("/api/friends", function (req, res) {
-    tableData.push(req.body);
+    friendData.push(req.body);
     res.json(true);
   });
 

@@ -20,6 +20,11 @@ h4 {
   font-family: 'Barrio', cursive;
 }
 
+img {
+  width: 100%;
+  display: inline-block;
+}
+
 .questions {
   margin: 1rem;
 }
