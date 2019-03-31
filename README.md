@@ -34,7 +34,7 @@ Upon hitting the submit button the user's answers are run through an algorithm t
 A link to the Friends API will display the answers from all of the previous monsters who have taken the test.
 
 ### Deploy to Heroku
-The functioning app is deployed to Heroku <a href="">HERE</a>.
+The functioning app is deployed to Heroku <a href="https://friendfinder-monsteredition.herokuapp.com/survey">HERE</a>.
 
 ### Extras
 Monster icons were made by Darius Dan and can be found <a href="https://www.flaticon.com/packs/monsters-12">here</a> at Flaticon.
