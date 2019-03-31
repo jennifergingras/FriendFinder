@@ -1,5 +1,5 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -13,11 +13,16 @@ body {
 h1 {
   font-size: 3.5rem;
   font-family: 'Barrio', cursive;
+
 }
 
 h3,
 h4 {
   font-family: 'Barrio', cursive;
+}
+
+.monsterbuddies img {
+  width: 25%
 }
 
 img {
